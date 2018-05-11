@@ -4,6 +4,7 @@ An Ansible Docker volume role for yum,apt and pip installation
 It includes volume's removal when not defined in the list
 
 ## Prerequisites
+Ansible >= 2.4
 
 python >= 2.6
 
