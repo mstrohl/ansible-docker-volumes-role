@@ -1,0 +1,12 @@
+---
+playbook_debug: False
+enable_remove_unwanted_volumes: False
+
+docker_volumes: []
+# docker_volumes:
+#   - name: internal
+#     state: present
+#     force: False      #  With state "present" volume will be deleted and recreated if the volume already exist and the driver, driver options or labels differ 
+#   - name: external
+#     state: absent 
+#     force: True
